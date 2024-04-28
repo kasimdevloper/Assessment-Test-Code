@@ -7,17 +7,85 @@
     <link rel="stylesheet" href="./style.css">
     <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
     <title>Coding Assesment L2 boilerplate</title>
-
 </head>
 
 <body>
+	<form>
     <!-- Your code goes here -->
-    
+   
     <div class="container">
-        <a href="https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code/blob/main/Readme.md" target="_blank">Read how to work with boilerplate</a>
+    <div class="container image">	
+		<img src="Rectangle 4.png"> 
+	
+	<div class="sideitems">
+		<h1>Marmeto</h1>
+		<h2>Embrace Sideboard</h2>
+		<div class="pricealign">
+		<h2 style="color: blue;">$12999.00</h2>
+		<h6 style="color: #FF0000;">35% Off</h6>
+		</div>
+		<strike><h4>$19999.00</h4></strike>
+		<div class="colorbox">
+			<label id="cl">Choose a color</label><br>	
+			<input type="color" id="rd" value="#ffe5b3" checked="checker"/>
+			<input type="color" id="rd"value="#bfff00"/>
+			<input type="color" id="rd"value="#79a6d2"/>
+			<input type="color" id="rd"value="#ffcccc"/>
+			
+		</div>
+		<br>
+		<label id="sbl">Choose a Size</label>
+		<div class="sizebotton" >
+				
+			<div class="radio-button-small">
+				<input type="radio" name="size" id="small" checked="checked"/>
+				<label>Small</label>
+			</div>
+				<div class="radio-button-meduim"><input type="radio" name="size" id="Medium"/>
+				<label>Meduim</label></div>
+				
+				<div class="radio-button-large"><input type="radio" name="size" id="Large"/>
+				<label>Large</label></div>
+				
+				<div class="radio-button-extralarge"><input type="radio" name="size" id="Extra Large"/>
+				<label>Extra Large</label></div>
+				
+				<div class="radio-button-xxl"><input type="radio" name="size" id="XXL"/>
+				<label>XXL</label></div>
+				</div>
+		</div>
+		<div class="addtocartbtn" >
+  <div class="quantity-container" style="margin-block-end: auto;" >
+    <div class="quantity-controls" >
+      <button class="btn-decrement" onclick="decrement(event)">-</button>
+      <span id="quantity">1</span>
+      <button class="btn-increment" onclick="increment(event)">+</button>
     </div>
+  </div>
+  <button class="btn" onclick="addToCart()" style="margin-block-end: auto;">Add to Cart</button>
+</div>			
+<div class="content">
+	<p style="color: rgba(163, 163, 163, 1);">The Embrace Sideboard is a stylish wear. With a top cloth <br>
+	 designed to provide superior protection and look great, this <br> 
+	 storage solution is both functional and attractive. It fits<br> 
+	 seamlessly into any home decor, with clean lines and a <br>
+	 timeless look. Crafted from premium materials for a <br>
+	 combination of style, durability, and reliabilit</p>
+	
+</div>
+</div>	
+</div>
+        <a href="https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code/blob/main/Readme.md" target="_blank">Read how to work with boilerplate</a>   
+</div>
+<div class="sideimage">
+	<img src="image1.png"/>
+	<img src="image2.png"/>
+	<img src="image3.png"/>
+	<img src="image4.png"/>
+	
+</div>
     <!-- Happy coding 😊 -->
     <script src="./script.js"></script>
 </body>
-
+</form>
 </html>
